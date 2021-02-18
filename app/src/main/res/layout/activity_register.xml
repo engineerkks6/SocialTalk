@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".RegisterActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="166dp"
+            android:src="@drawable/profile_image"
+            android:layout_gravity="center_vertical"
+            ></de.hdodenhof.circleimageview.CircleImageView>
+
+        <EditText
+            android:id="@+id/username_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_blue_light"
+            android:hint="Username..."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/editbg"
+            android:padding="12dp"
+
+            />
+
+        <EditText
+            android:id="@+id/email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_blue_light"
+            android:layout_marginTop="10dp"
+            android:hint="Email..."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/editbg"
+            android:padding="12dp"
+
+            />
+
+        <EditText
+            android:id="@+id/password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_blue_light"
+            android:layout_marginTop="10dp"
+            android:hint="Password..."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:background="@drawable/editbg"
+            android:padding="12dp"
+            />
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015717551422",
+    "firebase_url": "https://social-talk-b25d2.firebaseio.com",
+    "project_id": "social-talk-b25d2",
+    "storage_bucket": "social-talk-b25d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015717551422:android:e9a97960f5dedd3d4f206f",
+        "android_client_info": {
+          "package_name": "com.ayush.socialtalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015717551422-qdnj5mj4usqb6rftjr82c116upu3ofut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARIT1vtJMD3o5r-et-f3KamzKz1F8PPWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015717551422-qdnj5mj4usqb6rftjr82c116upu3ofut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

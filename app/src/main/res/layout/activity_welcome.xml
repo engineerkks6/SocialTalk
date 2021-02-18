@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:src="@drawable/profile_image"
+        android:layout_gravity="center_vertical"
+        ></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Welcome"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/register_welcome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn"
+        />
+    <Button
+        android:id="@+id/login_welcome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn"
+        />
+
+</LinearLayout>
